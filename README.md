@@ -8,4 +8,4 @@ With this data, I used K-means clustering, which is an unsupervised ML algorithm
 In my code, I created the ‘claimsdf’ dataframe that grouped every claim based on each unique insured ID number (for each unique person) and then aggregated the number of each type of for each person. I then used the ‘elbow method’ to find optimal number of clusters (5) for the K-Means Algorithm so that my model could accurately identify patterns within customers based on their claims and coverage. I trained the K-Means model on the dataset and then visualized the clusters with a Matplotlib scatterplot with the generated clusters and their centroids (averages) plotted.
 
 Using these clusters, I created a IPyWidget to show each cluster’s unique customers and all claims within the cluster. I also created bar plots and tables to indicate profiles of MetLife customers for each cluster that could be used to inform business about their assumptions for each customer/policyholder.
-![alt text](https://github.com/kushagraghosh/KMeansOnClaims/blob/main/ClaimsWidgetsPlots.png?raw=true)
+![alt text](ClaimsWidgetsPlots.png?raw=true)
